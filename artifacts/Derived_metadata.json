@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDerivedData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn-constructors.sol": "Derived"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn-constructors.sol": {
+			"keccak256": "0xd4178f4b1b53362eb21149dafb5565b4f073c3f73f3e2e0ef4cbeff96ad12e6f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c6806bc71ed6ccce4d12eb1c6d430052a8abf1fc40e752e672f124bfc3b6b5b3",
+				"dweb:/ipfs/QmRBUL1dmB7MV72AHXqxXR6RmLFRLNwrBkPK55YP4GkdHx"
+			]
+		}
+	},
+	"version": 1
+}
