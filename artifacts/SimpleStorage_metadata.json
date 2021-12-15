@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,12 +15,18 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "updatesBalance",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn-special-variables.sol": "Update"
+			"learn-global-variable.sol": "SimpleStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn-special-variables.sol": {
-			"keccak256": "0x97f1b9ea3535bc2b9bf1280e5650872d7682c8dadb9dcd10f2bf03e82c1d4bdb",
+		"learn-global-variable.sol": {
+			"keccak256": "0x4ff4e074f8da92f509b23359c094ef6620038cd803c8e16868f3d80bd0161c52",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://fd596aef6d0debdbd9270d52f3745d8609cab67326abfc2605f7c4feb0e7af92",
-				"dweb:/ipfs/QmRMW3ZAidbDfxbsHUSp1VUnKjTbDui9ZP29LTg6J9dcBW"
+				"bzz-raw://10f7a3064e95e7c9acbff48ed011dda80cf0cdaf0fd978d4c3ac27baa87de5cd",
+				"dweb:/ipfs/Qmcc2FFPtsH53ShrXy8KjMVLRJAAAi5tCqyfA3uTuTrWp2"
 			]
 		}
 	},

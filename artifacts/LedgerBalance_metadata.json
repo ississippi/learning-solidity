@@ -8,25 +8,6 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "sender",
-						"type": "address"
-					}
-				],
-				"name": "getLedgerBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
 						"name": "newBalance",
 						"type": "uint256"
@@ -51,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"learn-special-variables.sol": "LedgerBalance"
+			"learn-global-variable.sol": "LedgerBalance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"learn-special-variables.sol": {
-			"keccak256": "0x6f72a72df02696a25eb9ca267c29d6fddc862c6fc959b4a0a85f585b68af90ed",
+		"learn-global-variable.sol": {
+			"keccak256": "0x4ff4e074f8da92f509b23359c094ef6620038cd803c8e16868f3d80bd0161c52",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://10dd960acf92f4f715e20b61f395f9711310ac4c7e4bcab96ddb05dfb80615cc",
-				"dweb:/ipfs/QmVFkE4NBz2iizkv3LYEn1yQKsXifu4Bspdk3qS8HL9iUy"
+				"bzz-raw://10f7a3064e95e7c9acbff48ed011dda80cf0cdaf0fd978d4c3ac27baa87de5cd",
+				"dweb:/ipfs/Qmcc2FFPtsH53ShrXy8KjMVLRJAAAi5tCqyfA3uTuTrWp2"
 			]
 		}
 	},
