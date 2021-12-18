@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valuePlusThree",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learn-pure-view-external.sol": "viewPureConstantModifiers"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learn-pure-view-external.sol": {
+			"keccak256": "0x0e4ca6bfb3805be4f6a5e47cb9c72edc58b2a8485288b65c4cd15964ee7c9baa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7bf0a70e614f48989ff987a0dbfa49a5a67f58fb5501282141d09aab180fdc90",
+				"dweb:/ipfs/QmNpUJU7KnMiRgz9mZJpN9rfiMdV5zB7zpzWsS1DaUvzkH"
+			]
+		}
+	},
+	"version": 1
+}
