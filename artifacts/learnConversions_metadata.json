@@ -33,10 +33,11 @@
 	},
 	"sources": {
 		"learn-bitbyteconversions.sol": {
-			"keccak256": "0xeb62c84d35953daa0ef866855a4dc30e38d8be6a256c2c13067a3e44796cd0db",
+			"keccak256": "0x8a1e734d49bb93542e837c0e2e1dc59bf5a5d0978cc2b5c3c030fa95e619592a",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a77a4e8cc504434414fd6e955eac158c6d66b5b29441c0d8339cf285523bd309",
-				"dweb:/ipfs/QmfJhx2yXrWzrAwAT6nJpHVyWTJsRxM2ViYfZfSAdXcCCz"
+				"bzz-raw://b6e0084e6c5d821715e55b757204a8c9b867a3a2c5ae9404af4ba3f6efb4dbbf",
+				"dweb:/ipfs/QmctuyAXYWxAZDhQjFj8sMMFCpXnunWeQFrPavZ8BtMFF4"
 			]
 		}
 	},
