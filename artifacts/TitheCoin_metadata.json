@@ -44,37 +44,6 @@
 					{
 						"indexed": false,
 						"internalType": "uint256",
-						"name": "balanceSender",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "DebugLog",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
 					}
@@ -99,30 +68,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "newDonationPct",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "calculateDonation",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -191,11 +136,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newDonationPct",
+						"name": "_donationAmount",
 						"type": "uint256"
 					}
 				],
-				"name": "updateDonationPercent",
+				"name": "updateDonationAmount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -204,7 +149,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "newPhilanthropyOrg",
+						"name": "_philanthropyOrg",
 						"type": "address"
 					}
 				],
@@ -242,11 +187,11 @@
 	},
 	"sources": {
 		"tithe-coin.sol": {
-			"keccak256": "0x1438fc683a9d97651bb0bcf5c293a5623c19abbe16308b6c1d0639d4b0034f84",
+			"keccak256": "0x2ad25f431a4be05dec6989e4f105dd64d1e8503da9f872f185da5e50ebb81052",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://993c31fbb11e1c79934f611ff824b1241cba49e9bea4d06b182e062f6363e953",
-				"dweb:/ipfs/QmUuKvNH3pAoR9r3JnAXxwWVSHrUc9v2RJEAgCZKJEuDwp"
+				"bzz-raw://669f5f85d118919032aa047202972ec62eea9b89ae1abdd1470ae6bc452205b2",
+				"dweb:/ipfs/Qmbxi4u5dMR3qZysFTibRuUuLzyLUsfF4hgQjgUFyg1YMb"
 			]
 		}
 	},

@@ -23,7 +23,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "insufficientBalance",
+				"name": "InsufficientBalance",
 				"type": "error"
 			},
 			{
@@ -148,11 +148,10 @@
 	},
 	"sources": {
 		"learn-subcurrency.sol": {
-			"keccak256": "0xdf3a780273b05e389044d27802e3648fe52e4b7ab71742b7dd377529a62d8ace",
-			"license": "GPL-3.0",
+			"keccak256": "0x62906674cc84454596a55e5c6e8f795c056672742ba811d401cc2f504548df6d",
 			"urls": [
-				"bzz-raw://978cff438ef537e671bea677fa1696b1a0f66c6f9887c5ee434dcb3389fd215a",
-				"dweb:/ipfs/QmRBevnQhNpZDgQM2FRhGxzDmVamUQ4M7WVX7y2PJ4Jw7a"
+				"bzz-raw://366c6dbafab09c724c42337434986168bf54a83235856d67e69dc4ee7612497e",
+				"dweb:/ipfs/QmSS7apAYYvnGZuzns8FdTAQcapQJKqcwqYuDghP4MQaL2"
 			]
 		}
 	},

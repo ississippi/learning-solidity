@@ -5,30 +5,24 @@ contract TitheCoin {
     address public minter;
     address public philanthropyOrg;
     address defaultPhilanthropyOrg = 0x17F6AD8Ef982297579C203069C1DbfFE4348c372;
-    uint defaultDonationDivisor = 100 / 2;
-    uint donationDivisor;
+    uint defaultDonation = 1;
+    uint donationAmount;
     mapping(address => uint) public balances;
 
     event Sent(address from, address to, uint amount);
-    event DebugLog(address from, address to, uint balanceSender, uint amount);
 
     constructor() {
         minter = msg.sender;
         philanthropyOrg = defaultPhilanthropyOrg;
-        donationDivisor = defaultDonationDivisor;
+        donationAmount = defaultDonation;
     }
 
-    function updatePhilanthropyOrg(address newPhilanthropyOrg) external {
-        philanthropyOrg = newPhilanthropyOrg;
+    function updatePhilanthropyOrg(address _philanthropyOrg) external {
+        philanthropyOrg = _philanthropyOrg;
     }
 
-    function updateDonationPercent(uint newDonationPct) external {
-        donationDivisor = 100 / newDonationPct;
-    }
-    
-    function calculateDonation(uint newDonationPct, uint amount) external pure returns(uint) {
-        uint divisor = 100 / newDonationPct;
-        return amount / divisor;
+    function updateDonationAmount(uint _donationAmount) external {
+        donationAmount = _donationAmount;
     }
 
     function mint(address receiver, uint amount) public {
@@ -36,12 +30,9 @@ contract TitheCoin {
         balances[receiver] += amount;
         //
         //Send a donation to our favorite philanthropy organization
-        uint donation = amount / donationDivisor;
-        balances[receiver] -= donation;
-        balances[msg.sender] += donation;
-        emit DebugLog(msg.sender, receiver, balances[msg.sender], donation);
-        this.send(philanthropyOrg, donation);
-        balances[philanthropyOrg] += donation;
+        balances[receiver] -= donationAmount;
+        balances[msg.sender] += donationAmount;
+        this.send(philanthropyOrg, donationAmount);
     }
 
     error insufficientBalance(uint requested, uint available);
